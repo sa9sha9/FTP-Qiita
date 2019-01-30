@@ -253,3 +253,5 @@ typings/
 # Sonarlint plugin
 
 # End of https://www.gitignore.io/api/node,macos,webstorm,intellij,visualstudiocode
+
+build
