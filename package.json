@@ -7,6 +7,8 @@
     "@types/node": "10.12.20",
     "@types/react": "16.7.22",
     "@types/react-dom": "16.0.11",
+    "axios": "^0.18.0",
+    "mobx": "^5.9.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3",
@@ -26,5 +28,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@fourdigit/editorconfig-config-fourdigit": "^1.0.1",
+    "@fourdigit/stylelint-config-fourdigit": "^1.0.0",
+    "prettier": "^1.16.2",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1"
+  }
 }
