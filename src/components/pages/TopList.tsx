@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { RouteComponentProps } from 'react-router-dom';
 import sc from 'styled-components';
 
-const TopList = () => {
+interface Props extends RouteComponentProps<{}> {}
+
+const TopList = (props: Props) => {
   return <_TopList />;
 };
 
