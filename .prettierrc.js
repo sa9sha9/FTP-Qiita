@@ -1,3 +1,1 @@
-module.exports = {
-    ...require('@fourdigit/eslint-config-fourdigit/.prettierrc.js')
-};
+module.exports = require('@fourdigit/eslint-config-fourdigit/.prettierrc.js');

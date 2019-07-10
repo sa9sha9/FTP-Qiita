@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import sc from 'styled-components';
+import styled from 'styled-components';
 
 const Header = () => {
   return <Header />;
 };
 
-const _Header = sc.div`
+const _Header = styled.div`
     width: 100%;
  `;
 

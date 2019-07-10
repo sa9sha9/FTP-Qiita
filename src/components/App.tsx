@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'mobx-react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
-import Header from '@molecules/Header';
-import Footer from '@molecules/Footer';
-import TopList from '@pages/TopList';
+import Header from 'components/molecules/Header';
+import TopList from 'components/pages/TopList';
 
 // import postsStore from './stores/postsStore';
 
 import logo from '@img/logo.svg';
 
-const stores = {};
+const stores = {
+  postsStore;
+};
 
 const App: React.FC = () => {
   return (
@@ -22,7 +23,6 @@ const App: React.FC = () => {
           <Switch>
             <Route path="/list" component={TopList} />
           </Switch>
-          <Footer />
         </HashRouter>
       </Provider>
     </div>
